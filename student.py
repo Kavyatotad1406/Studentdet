@@ -1,5 +1,5 @@
 import sys
-if len(sys.argv)!=3:
+if len(sys.argv)==3:
   script_name=sys.argv[0]
   name=sys.argv[1]
   rollno=sys.argv[2]
@@ -9,7 +9,7 @@ else:
   name="Deepa"
   rollno="101"
   print("No input given-using default values:")
-   print("Script name:",script_name)
+print("Script name:",script_name)
 print("Student name:",name)
 print("Roll number:",rollno)
   
